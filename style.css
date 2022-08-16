@@ -1,0 +1,144 @@
+/*** Global ***/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #FFFFFF url("/SocialinksS&J/images/fundocss.png") no-repeat right top fixed;
+}
+
+a{
+  text-decoration: none;
+}
+
+html{
+  /*Variáveis*/
+  --bg-color: #edf2ff;
+  --text-color: #00082f;
+
+}
+
+body.dark {
+  background: #FFFFFF url("/SocialinksS&J/images/fundocss.png") no-repeat right top fixed;
+  /*--bg-color: #00082f;*/
+  --text-color: #ffffff;
+}
+
+body{
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
+}
+
+img.avatar{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: #4263eb solid 4px;
+  
+}
+
+img{
+  width: 100%;
+}
+
+h1{
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+p{
+  font-family: 'Roboto Mono', monospace;
+  opacity: 1;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.username{
+  font-family: 'Roboto Mono', monospace;
+}
+
+ul{
+  list-style: none;
+  margin: 48px 0;
+}
+
+ul li a {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffce07;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-size: 14px;
+
+  margin-bottom: 16px;
+  border-radius: 6px;
+
+  transition: backgroud 400ms;
+}
+
+/*pseudo-class*/
+
+ul li a:hover{
+  background: #ffe601;
+}
+
+footer {
+  font-weight: 500;
+  font-size: 12px;
+  color: #00082f;
+  opacity: 0.6;
+  transition: opacity 400ms;
+}
+
+footer:hover{
+  opacity: 1;
+}
+
+footer a{
+  color: var(--text-color);
+}
+
+img.logozap{
+  width: 7%;
+  border-radius: 30%;
+}
+
+img.pedroWhats{
+  width: 7%;
+  border-radius: 30%;
+}
+
+img.joaoWhats{
+  width: 7%;
+  border-radius: 30%;
+}
+
+img.logoYouTube{
+  width: 7%;
+  border-radius: 30%;
+}
+
+/*** Roda pé ***/
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.cat {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 0px auto;
+ }
+
+/* background: #FFFFFF url() no-repeat right top fixed;*/
