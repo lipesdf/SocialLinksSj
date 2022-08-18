@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #FFFFFF url("https://i.imgur.com/5lEQxKK.png") no-repeat right top fixed;
 }
 
 a{
@@ -18,13 +17,12 @@ html{
 }
 
 body.dark {
-  background: #FFFFFF url("/SocialinksS&J/images/fundocss.png") no-repeat right top fixed;
+  background-color: black; 
   /*--bg-color: #00082f;*/
   --text-color: #ffffff;
 }
 
 body{
-  background: var(--bg-color);
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
 
